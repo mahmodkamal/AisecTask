@@ -1,15 +1,16 @@
 import { NgModule } from '@angular/core';
 import { Routes, RouterModule } from '@angular/router';
+import { OppCardComponent } from '../opp-card.component';
 
 const routes: Routes = [
   {
     path:'',
-    loadChildren:'./opp-card/opp/opp.module#OppModule'
+    component:OppCardComponent,
   }
 ];
 
 @NgModule({
-  imports: [RouterModule.forRoot(routes)],
+  imports: [RouterModule.forChild(routes)],
   exports: [RouterModule]
 })
-export class AppRoutingModule { }
+export class OppRoutingModule { }

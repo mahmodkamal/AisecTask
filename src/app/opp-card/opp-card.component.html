@@ -1,0 +1,23 @@
+<div class="col-sm-6 col-md-4 main" (click)="open(opp)" *ngFor="let opp of opps.data">
+      <div class="card">
+        <img src="https://cdn-expa.aiesec.org/gis-img/gt_default.png">
+        <div class="card-body">
+        <div class="row">
+          <div class="col">
+            <div class=" Name">
+            <br>
+              <p>{{opp.title}}</p>
+            </div>
+            <div class="float-left location">
+             <p>Location</p>
+             <br>
+             <p>{{opp.branch.name}}</p>
+          </div>
+            <div class="float-right ">
+              <p>Duration</p>
+              <br>
+               <p>{{opp.duration}} Weeks</p>
+            </div>
+          </div>     
+      </div>
+</div>

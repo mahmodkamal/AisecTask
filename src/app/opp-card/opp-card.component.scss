@@ -1,0 +1,43 @@
+.main{
+    margin-left: 30%;
+    margin-top: 5%;
+    .Name{
+        margin-top: -10%;
+    }
+    .location{
+        padding-top: 20%;
+        padding-left: 6%;
+    }
+}
+.card {
+    background-color: #fff;
+    border-radius: 4px;
+    max-width: 55%;
+    margin: 10% auto;
+    height: 30%;
+   
+   
+    color: #444;
+    cursor: pointer;
+    &:before {
+        content: '';
+        display: block;
+        position: absolute;
+        background-color: #ccc;
+        left: 20px;
+        right: 20px;
+        bottom: 0;
+        top: 50%;
+        z-index: -1;
+        box-shadow: 0 0 40px lighten(#000, 60%);
+        transition: box-shadow .2s ease-in-out;
+    }
+    &.level-3 {
+        &:hover {
+            &:before {
+                box-shadow: 0 0 80px lighten(#000, 60%);
+            }
+        }
+    }
+    
+}

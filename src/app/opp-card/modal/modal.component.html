@@ -1,0 +1,237 @@
+<form #form="ngForm">
+<div class="modal-header">
+<h3>Edit opportunity</h3> 
+     <button type="button" class="close" aria-label="Close" (click)="activeModal.dismiss('Cross click')">
+        <span aria-hidden="true">&times;</span>
+      </button> 
+</div>
+ <div class="modal-body">
+      <div class="form-group">
+        <label for="formGroupExampleInput">Title</label>
+        <input type="text" class="form-control" name ='Title' ngModel id="formGroupExampleInput" placeholder="Title">
+      </div>
+      <div class="form-group">
+        <label for="formGroupExampleInput2">Url</label>
+        <input type="text" class="form-control" name ='Url' ngModel id="formGroupExampleInput2" placeholder="Url">
+      </div>
+      <h3>programms</h3>
+      <div class="form-group">
+        <label for="formGroupExampleInput">ShortName</label>
+        <input type="text" class="form-control" name ='ShortName' ngModel id="formGroupExampleInput" placeholder="Example input">
+      </div>
+      <h3>Branch</h3>
+      <div class="form-group">
+        <label for="formGroupExampleInput2">Name</label>
+        <input type="text" class="form-control" name ='Name' ngModel id="formGroupExampleInput2" placeholder="Name">
+      </div>
+      <div class="form-group">
+        <label for="formGroupExampleInput2">scope</label>
+        <input type="text" class="form-control"  name ='scope' ngModel id="formGroupExampleInput2" placeholder="scope  ">
+      </div>
+    
+      <div class="form-group">
+        <label for="formGroupExampleInput">status</label>
+        <input type="text" class="form-control" name ='status' ngModel id="formGroupExampleInput" placeholder="Status">
+      </div>
+      <h3>organisation</h3>
+      <div class="form-group">
+        <label for="formGroupExampleInput">Name</label>
+        <input type="text" class="form-control" name ='Name' ngModel id="formGroupExampleInput" placeholder="Name">
+      </div>
+      <div class="form-group">
+        <label for="formGroupExampleInput2">summary</label>
+        <input type="text" class="form-control" name ='summary' ngModel id="formGroupExampleInput2" placeholder="summary">
+      </div>
+      <h3>Contact Info</h3>
+      <div class="form-group">
+        <label for="formGroupExampleInput">website</label>
+        <input type="text" class="form-control" name ='website' ngModel id="formGroupExampleInput" placeholder="Name">
+      </div>
+      <div class="form-group">
+        <label for="formGroupExampleInput2">summary</label>
+        <input type="text" class="form-control" name ='summary' ngModel id="formGroupExampleInput2" placeholder="summary">
+      </div>
+      <h3>organisation</h3>
+      <div class="form-group">
+        <label for="formGroupExampleInput">Name</label>
+        <input type="text" class="form-control" name ='Name' ngModel id="formGroupExampleInput" placeholder="Name">
+      </div>
+      <div class="form-group">
+        <label for="formGroupExampleInput2">summary</label>
+        <input type="text" class="form-control" name ='summary' ngModel id="formGroupExampleInput2" placeholder="summary">
+      </div>
+      <h3>contact Info</h3>
+      <div class="form-group">
+        <label for="formGroupExampleInput">website</label>
+        <input type="website" class="form-control" name ='website' ngModel id="formGroupExampleInput" placeholder="website">
+      </div>
+      <div class="form-group">
+        <label for="formGroupExampleInput2">email</label>
+        <input type="email" class="form-control" name ='email' ngModel  id="formGroupExampleInput2" placeholder="email">
+      </div>
+      <div class="form-group">
+        <label for="formGroupExampleInput">country_code</label>
+        <input type="country_code" class="form-control" name ='country_code' ngModel id="formGroupExampleInput" placeholder="country_code">
+      </div>
+
+      <h3>Address info</h3>
+      <div class="form-group">
+        <label for="formGroupExampleInput2">address_1</label>
+        <input type="text" class="form-control" name ='address_1' ngModel id="formGroupExampleInput2" placeholder="address_1">
+      </div>
+      <div class="form-group">
+        <label for="formGroupExampleInput">address_2</label>
+        <input type="text" class="form-control"  id="formGroupExampleInput" placeholder="address_2">
+      </div>
+      <div class="form-group">
+        <label for="formGroupExampleInput2">postcode</label>
+        <input type="text" class="form-control"  name ='postcode' ngModel id="formGroupExampleInput2" placeholder="postcode">
+      </div>
+      <div class="form-group">
+        <label for="formGroupExampleInput2">city</label>
+        <input type="text" class="form-control" name ='city' ngModel id="formGroupExampleInput2" placeholder="city">
+      </div>
+      <div class="form-group">
+        <label for="formGroupExampleInput2">country</label>
+        <input type="text" class="form-control" name ='country' ngModel id="formGroupExampleInput2" placeholder="country">
+      </div>
+      <div class="form-group">
+        <label for="formGroupExampleInput2">city_name</label>
+        <input type="text" class="form-control" name ='city_name' ngModel  id="formGroupExampleInput2" placeholder="city_name">
+      </div>
+      <div class="form-group">
+        <label for="formGroupExampleInput2">country_name</label>
+        <input type="text" class="form-control" name ='country_name' ngModel id="formGroupExampleInput2" placeholder="country_name">
+      </div>
+
+      <h3>billing_address</h3>
+    <div class="form-group">
+        <label for="formGroupExampleInput2">address_1</label>
+        <input type="text" class="form-control" name ='address_1' ngModel id="formGroupExampleInput2" placeholder="address_1">
+      </div>
+      <div class="form-group">
+        <label for="formGroupExampleInput">address_2</label>
+        <input type="text" class="form-control" name ='address_2' ngModel id="formGroupExampleInput" placeholder="address_2">
+      </div>
+      <div class="form-group">
+        <label for="formGroupExampleInput2">postcode</label>
+        <input type="text" class="form-control"  name ='postcode' ngModel id="formGroupExampleInput2" placeholder="postcode">
+      </div>
+      <div class="form-group">
+        <label for="formGroupExampleInput2">city</label>
+        <input type="text" class="form-control" name ='city' ngModel id="formGroupExampleInput2" placeholder="city">
+      </div>
+      <div class="form-group">
+        <label for="formGroupExampleInput2">country</label>
+        <input type="text" class="form-control" name ='country' ngModel id="formGroupExampleInput2" placeholder="country">
+      </div>
+      <div class="form-group">
+        <label for="formGroupExampleInput2">city_name</label>
+        <input type="text" class="form-control"  name ='city_name' ngModel id="formGroupExampleInput2" placeholder="city_name">
+      </div>
+      <div class="form-group">
+        <label for="formGroupExampleInput2">country_name</label>
+        <input type="text" class="form-control"     id="formGroupExampleInput2" placeholder="country_name">
+      </div>
+
+
+      <div class="form-group">
+        <label for="formGroupExampleInput2">duration_min</label>
+        <input type="text" class="form-control" name ='duration_min' ngModel id="formGroupExampleInput2" placeholder="duration_min">
+      </div>
+      <div class="form-group">
+        <label for="formGroupExampleInput">duration_max</label>
+        <input type="text" class="form-control" name ='duration_max' ngModel id="formGroupExampleInput" placeholder="duration_max">
+      </div>
+      <div class="form-group">
+        <label for="formGroupExampleInput2">duration</label>
+        <input type="text" class="form-control" name ='duration' ngModel id="formGroupExampleInput2" placeholder="duration">
+      </div>
+      <div class="form-group">
+        <label for="formGroupExampleInput2">project_duration</label>
+        <input type="text" class="form-control" name ='project_duration' ngModel id="formGroupExampleInput2" placeholder="project_duration">
+      </div>
+      <div class="form-group">
+        <label for="formGroupExampleInput2">applications_close_date</label>
+        <input type="date" class="form-control" name ='applications_close_date' ngModel id="formGroupExampleInput2" placeholder="applications_close_date">
+      </div>
+      <div class="form-group">
+        <label for="formGroupExampleInput2">earliest_start_date</label>
+        <input type="date" class="form-control" name ='earliest_start_date' ngModel id="formGroupExampleInput2" placeholder="earliest_start_date">
+      </div>
+      <div class="form-group">
+        <label for="formGroupExampleInput2">latest_end_date</label>
+        <input type="text" class="form-control" name ='latest_end_date' ngModel id="formGroupExampleInput2" placeholder="latest_end_date">
+      </div>
+
+      <h3>office</h3>
+      <div class="form-group">
+        <label for="formGroupExampleInput2">name</label>
+        <input type="text" class="form-control" name ='name' ngModel id="formGroupExampleInput2" placeholder="name">
+      </div>
+      <div class="form-group">
+        <label for="formGroupExampleInput2">full_name</label>
+        <input type="text" class="form-control"  name ='full_name' ngModel id="formGroupExampleInput2" placeholder="full_name">
+      </div>
+      <div class="form-group">
+        <label for="formGroupExampleInput2">email</label>
+        <input type="email" class="form-control"  name ='email' ngModel id="formGroupExampleInput2" placeholder="email">
+      </div>
+      <div class="form-group">
+        <label for="formGroupExampleInput2">tag</label>
+        <input type="text" class="form-control"  name ='tag' ngModel id="formGroupExampleInput2" placeholder="tag">
+      </div>
+      <div class="form-group">
+        <label for="formGroupExampleInput2">signup_link</label>
+        <input type="text" class="form-control"  name ='signup_link' ngModel id="formGroupExampleInput2" placeholder="signup_link">
+      </div>
+      <div class="form-group">
+        <label for="formGroupExampleInput2">country</label>
+        <input type="text" class="form-control" name ='country' ngModel id="formGroupExampleInput2" placeholder="country">
+      </div>
+      <div class="form-group">
+        <label for="formGroupExampleInput2">url</label>
+        <input type="text" class="form-control" name ='url' ngModel id="formGroupExampleInput2" placeholder="url">
+      </div>
+
+
+      <h3>SDG_INFO</h3>
+      <div class="form-group">
+        <label for="formGroupExampleInput2">partners</label>
+        <input type="text" class="form-control"  name ='partners' ngModel id="formGroupExampleInput2" placeholder="partners">
+      </div>
+      <div class="form-group">
+        <label for="formGroupExampleInput2">coordination</label>
+        <input type="text" class="form-control" name ='coordination' ngModel  id="formGroupExampleInput2" placeholder="coordination">
+      </div>
+      <div class="form-group">
+        <label for="formGroupExampleInput2">implementation</label>
+        <input type="text" class="form-control" name ='implementation' ngModel id="formGroupExampleInput2" placeholder="implementation">
+      </div>
+      <div class="form-group">
+        <label for="formGroupExampleInput2">potential_reach</label>
+        <input type="text" class="form-control" name ='potential_reach' ngModel id="formGroupExampleInput2" placeholder="potential_reach">
+      </div>
+      <div class="form-group">
+        <label for="formGroupExampleInput2">impact_date</label>
+        <input type="date" class="form-control" name ='impact_date' ngModel id="formGroupExampleInput2" placeholder="impact_date">
+      </div>
+      <div class="form-group">
+        <label for="formGroupExampleInput2">potential_reach</label>
+        <input type="text" class="form-control" name ='potential_reach' ngModel id="formGroupExampleInput2" placeholder="potential_reach">
+      </div>
+      <h5>SDG_Target</h5>
+      <div class="form-group">
+        <label for="formGroupExampleInput2">target</label>
+        <input type="text" class="form-control" name ='target' ngModel  id="formGroupExampleInput2" placeholder="target">
+      </div>
+      <div class="form-group">
+        <label for="formGroupExampleInput2">description</label>
+        <input type="text" class="form-control" name ='description' ngModel id="formGroupExampleInput2" placeholder="description">
+      </div>
+   </div>
+   <div class="modal-footer">
+    <button type="submit" class="btn btn-primary" (click)="update(form)">Edit</button>
+    <button type="button" class="btn btn-outline-dark" (click)="activeModal.close('Close click')">Close</button>
+   </div>
+</form>
